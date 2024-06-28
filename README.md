@@ -46,7 +46,14 @@ Se precisar remover a configuração de limitação, use os comandos abaixo:
 sudo iptables -t mangle -D OUTPUT -s 192.168.1.220 -d 77.83.252.180 -j MARK --set-mark 1
 ```
 
-6 - Remova a configuração do 'tc':
+2 - Remova a configuração do 'tc':
 ```sh
 sudo tc qdisc del dev eth0 root
 ```
+
+3 - Monitorar:
+```sh
+iftop
+```
+
+
