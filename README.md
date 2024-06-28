@@ -5,6 +5,7 @@
   ```sh
 sudo apt-get update
 sudo apt-get install iproute2
+sudo apt-get install iftop
   ```
 
 2 - Marque os pacotes com iptables:
