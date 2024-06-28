@@ -1,4 +1,4 @@
-# limita-o-rede
+# Limitador de trafico de rede para um determinado IP
 
 1 - sudo tc qdisc del dev eth0 root
 
